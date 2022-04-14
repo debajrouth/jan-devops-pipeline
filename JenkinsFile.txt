@@ -1,7 +1,7 @@
 pipeline
 {
     
-    agent any                           s//define agent at pipeline/top level
+    agent any                           //define agent at pipeline/top level
     stages                              //It contains all the stages
 
     {
