@@ -6,9 +6,11 @@ pipeline
 
     {
         stage('print hi')               //define all the stage under stages
-
-        steps                           // It tells Jenkins what to perform
-         {sh echo hi, Im-Jenkins }      // execution commands
-    }
+        {
+            steps                           // It tells Jenkins what to perform
+             {sh echo hi, I m-Jenkins }      // execution commands
+        }
     
     }
+    
+  }
